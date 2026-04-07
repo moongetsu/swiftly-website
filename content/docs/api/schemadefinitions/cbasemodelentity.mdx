@@ -28,21 +28,9 @@ public interface CBaseModelEntity : CBaseEntity, CEntityInstance, IEquatable<CEn
 
 ## Properties
 
-### AddDecal
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L84" />
-
-```csharp
-ref int AddDecal { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="int" typeHref="https://learn.microsoft.com/dotnet/api/system.int32" />
-
 ### AllowFadeInView
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L58" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L52" />
 
 ```csharp
 ref bool AllowFadeInView { get; }
@@ -78,7 +66,7 @@ CRenderComponent? CRenderComponent { get; }
 
 ### Collision
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L68" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L62" />
 
 ```csharp
 CCollisionProperty Collision { get; }
@@ -87,54 +75,6 @@ CCollisionProperty Collision { get; }
 <ApiLabel>Property Value</ApiLabel>
 
 - <ApiParam type="CCollisionProperty" typeHref="/docs/api/schemadefinitions/ccollisionproperty" />
-
-### ConfigEntitiesToPropagateMaterialDecalsTo
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L94" />
-
-```csharp
-ref CUtlVector<CHandle<CBaseModelEntity>> ConfigEntitiesToPropagateMaterialDecalsTo { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="CUtlVector&lt;CHandle&lt;CBaseModelEntity&gt;&gt;" typeHref="/docs/api/natives/cutlvectort" />
-
-### DecalForwardAxis
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L88" />
-
-```csharp
-ref Vector DecalForwardAxis { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
-
-### DecalMode
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L90" />
-
-```csharp
-ref DecalMode_t DecalMode { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="DecalMode_t" typeHref="/docs/api/schemadefinitions/decalmode_t" />
-
-### DecalPosition
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L86" />
-
-```csharp
-ref Vector DecalPosition { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
 
 ### DestructiblePartInitialStateDestructed0
 
@@ -270,7 +210,7 @@ CDestructiblePartsComponent? DestructiblePartsSystemComponent { get; }
 
 ### DisabledHitGroups
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L98" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L80" />
 
 ```csharp
 ISchemaFixedArray<uint> DisabledHitGroups { get; }
@@ -282,7 +222,7 @@ ISchemaFixedArray<uint> DisabledHitGroups { get; }
 
 ### DissolveStartTime
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L50" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L44" />
 
 ```csharp
 GameTime_t DissolveStartTime { get; }
@@ -294,7 +234,7 @@ GameTime_t DissolveStartTime { get; }
 
 ### FadeMaxDist
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L76" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L70" />
 
 ```csharp
 ref float FadeMaxDist { get; }
@@ -306,7 +246,7 @@ ref float FadeMaxDist { get; }
 
 ### FadeMinDist
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L74" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L68" />
 
 ```csharp
 ref float FadeMinDist { get; }
@@ -318,7 +258,7 @@ ref float FadeMinDist { get; }
 
 ### FadeScale
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L78" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L72" />
 
 ```csharp
 ref float FadeScale { get; }
@@ -330,7 +270,7 @@ ref float FadeScale { get; }
 
 ### Glow
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L70" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L64" />
 
 ```csharp
 CGlowProperty Glow { get; }
@@ -342,7 +282,7 @@ CGlowProperty Glow { get; }
 
 ### GlowBackfaceMult
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L72" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L66" />
 
 ```csharp
 ref float GlowBackfaceMult { get; }
@@ -352,45 +292,9 @@ ref float GlowBackfaceMult { get; }
 
 - <ApiParam type="float" typeHref="https://learn.microsoft.com/dotnet/api/system.single" />
 
-### LastDamagePosition
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L48" />
-
-```csharp
-ref Vector LastDamagePosition { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="Vector" typeHref="/docs/api/natives/vector" />
-
-### LastDamageSourceName
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L46" />
-
-```csharp
-ref CGlobalSymbol LastDamageSourceName { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="CGlobalSymbol" typeHref="/docs/api/natives/cglobalsymbol" />
-
-### LastHitGroup
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L44" />
-
-```csharp
-ref HitGroup_t LastHitGroup { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="HitGroup_t" typeHref="/docs/api/schemadefinitions/hitgroup_t" />
-
 ### NoInterpolate
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L66" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L60" />
 
 ```csharp
 ref bool NoInterpolate { get; }
@@ -402,7 +306,7 @@ ref bool NoInterpolate { get; }
 
 ### ObjectCulling
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L82" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L76" />
 
 ```csharp
 ref byte ObjectCulling { get; }
@@ -414,7 +318,7 @@ ref byte ObjectCulling { get; }
 
 ### OnIgnite
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L52" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L46" />
 
 ```csharp
 ref CEntityIOOutput OnIgnite { get; }
@@ -426,7 +330,7 @@ ref CEntityIOOutput OnIgnite { get; }
 
 ### Render
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L60" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L54" />
 
 ```csharp
 ref Color Render { get; }
@@ -438,7 +342,7 @@ ref Color Render { get; }
 
 ### RenderAttributes
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L62" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L56" />
 
 ```csharp
 ref CUtlVector<EntityRenderAttribute_t> RenderAttributes { get; }
@@ -450,7 +354,7 @@ ref CUtlVector<EntityRenderAttribute_t> RenderAttributes { get; }
 
 ### RenderFX
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L56" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L50" />
 
 ```csharp
 ref RenderFx_t RenderFX { get; }
@@ -462,7 +366,7 @@ ref RenderFx_t RenderFX { get; }
 
 ### RenderMode
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L54" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L48" />
 
 ```csharp
 ref RenderMode_t RenderMode { get; }
@@ -474,7 +378,7 @@ ref RenderMode_t RenderMode { get; }
 
 ### RenderToCubemaps
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L64" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L58" />
 
 ```csharp
 ref bool RenderToCubemaps { get; }
@@ -484,21 +388,9 @@ ref bool RenderToCubemaps { get; }
 
 - <ApiParam type="bool" typeHref="https://learn.microsoft.com/dotnet/api/system.boolean" />
 
-### RequiredDecalMode
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L92" />
-
-```csharp
-ref DecalMode_t RequiredDecalMode { get; }
-```
-
-<ApiLabel>Property Value</ApiLabel>
-
-- <ApiParam type="DecalMode_t" typeHref="/docs/api/schemadefinitions/decalmode_t" />
-
 ### ShadowStrength
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L80" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L74" />
 
 ```csharp
 ref float ShadowStrength { get; }
@@ -510,7 +402,7 @@ ref float ShadowStrength { get; }
 
 ### ViewOffset
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L96" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L78" />
 
 ```csharp
 CNetworkViewOffsetVector ViewOffset { get; }
@@ -522,73 +414,25 @@ CNetworkViewOffsetVector ViewOffset { get; }
 
 ## Methods
 
-### AddDecalUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L117" />
-
-```csharp
-void AddDecalUpdated()
-```
-
 ### CHitboxComponentUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L101" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L82" />
 
 ```csharp
 void CHitboxComponentUpdated()
 ```
 
-### CRenderComponentUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L100" />
-
-```csharp
-void CRenderComponentUpdated()
-```
-
 ### CollisionUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L109" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L90" />
 
 ```csharp
 void CollisionUpdated()
 ```
 
-### ConfigEntitiesToPropagateMaterialDecalsToUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L122" />
-
-```csharp
-void ConfigEntitiesToPropagateMaterialDecalsToUpdated()
-```
-
-### DecalForwardAxisUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L119" />
-
-```csharp
-void DecalForwardAxisUpdated()
-```
-
-### DecalModeUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L120" />
-
-```csharp
-void DecalModeUpdated()
-```
-
-### DecalPositionUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L118" />
-
-```csharp
-void DecalPositionUpdated()
-```
-
 ### DestructiblePartsSystemComponentUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L102" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L83" />
 
 ```csharp
 void DestructiblePartsSystemComponentUpdated()
@@ -596,7 +440,7 @@ void DestructiblePartsSystemComponentUpdated()
 
 ### DisabledHitGroupsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L124" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L99" />
 
 ```csharp
 void DisabledHitGroupsUpdated()
@@ -604,7 +448,7 @@ void DisabledHitGroupsUpdated()
 
 ### FadeMaxDistUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L113" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L94" />
 
 ```csharp
 void FadeMaxDistUpdated()
@@ -612,7 +456,7 @@ void FadeMaxDistUpdated()
 
 ### FadeMinDistUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L112" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L93" />
 
 ```csharp
 void FadeMinDistUpdated()
@@ -620,15 +464,57 @@ void FadeMinDistUpdated()
 
 ### FadeScaleUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L114" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L95" />
 
 ```csharp
 void FadeScaleUpdated()
 ```
 
+### GetMeshGroupMask()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L23" />
+
+Gets the model meshgroupmask of the entity.
+
+```csharp
+ulong? GetMeshGroupMask()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="ulong?" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
+### GetModel()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L17" />
+
+Gets the model of the entity.
+
+```csharp
+string? GetModel()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="string?" typeHref="https://learn.microsoft.com/dotnet/api/system.string" />
+
+### GetSkeletonInstance()
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L11" />
+
+Gets the skeletance instance of the entity.
+
+```csharp
+CSkeletonInstance? GetSkeletonInstance()
+```
+
+<ApiLabel>Returns</ApiLabel>
+
+- <ApiParam type="CSkeletonInstance?" typeHref="/docs/api/schemadefinitions/cskeletoninstance" />
+
 ### GlowBackfaceMultUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L111" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L92" />
 
 ```csharp
 void GlowBackfaceMultUpdated()
@@ -636,7 +522,7 @@ void GlowBackfaceMultUpdated()
 
 ### GlowUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L110" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L91" />
 
 ```csharp
 void GlowUpdated()
@@ -644,7 +530,7 @@ void GlowUpdated()
 
 ### NoInterpolateUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L108" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L89" />
 
 ```csharp
 void NoInterpolateUpdated()
@@ -652,7 +538,7 @@ void NoInterpolateUpdated()
 
 ### ObjectCullingUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L116" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L97" />
 
 ```csharp
 void ObjectCullingUpdated()
@@ -660,7 +546,7 @@ void ObjectCullingUpdated()
 
 ### RenderAttributesUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L106" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L87" />
 
 ```csharp
 void RenderAttributesUpdated()
@@ -668,7 +554,7 @@ void RenderAttributesUpdated()
 
 ### RenderFXUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L104" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L85" />
 
 ```csharp
 void RenderFXUpdated()
@@ -676,7 +562,7 @@ void RenderFXUpdated()
 
 ### RenderModeUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L103" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L84" />
 
 ```csharp
 void RenderModeUpdated()
@@ -684,7 +570,7 @@ void RenderModeUpdated()
 
 ### RenderToCubemapsUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L107" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L88" />
 
 ```csharp
 void RenderToCubemapsUpdated()
@@ -692,23 +578,15 @@ void RenderToCubemapsUpdated()
 
 ### RenderUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L105" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L86" />
 
 ```csharp
 void RenderUpdated()
 ```
 
-### RequiredDecalModeUpdated()
-
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L121" />
-
-```csharp
-void RequiredDecalModeUpdated()
-```
-
 ### SetBodygroupByName(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L27" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L51" />
 
 Sets the bodygroup to the entity.
 
@@ -726,7 +604,7 @@ void SetBodygroupByName(string group, int value)
 
 ### SetBodygroupByNameAsync(string, int)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L35" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L59" />
 
 Sets the bodygroup to the entity asynchronously.
 
@@ -743,9 +621,23 @@ Task SetBodygroupByNameAsync(string group, int value)
 
 - <ApiParam type="Task" typeHref="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task" />
 
+### SetMeshGroupMask(ulong)
+
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L29" />
+
+Sets the model meshgroupmask of the entity.
+
+```csharp
+void SetMeshGroupMask(ulong meshGroupMask)
+```
+
+<ApiLabel>Parameters</ApiLabel>
+
+- <ApiParam name="meshGroupMask" type="ulong" typeHref="https://learn.microsoft.com/dotnet/api/system.uint64" />
+
 ### SetModel(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L13" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L37" />
 
 Sets the model to the entity.
 
@@ -762,7 +654,7 @@ void SetModel(string model)
 
 ### SetModelAsync(string)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L20" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L44" />
 
 Sets the model to the entity asynchronously.
 
@@ -780,7 +672,7 @@ Task SetModelAsync(string model)
 
 ### SetScale(float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L42" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L66" />
 
 Sets the scale of the entity.
 
@@ -797,7 +689,7 @@ void SetScale(float scale)
 
 ### SetScaleAsync(float)
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L48" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L72" />
 
 Sets the scale of the entity.
 
@@ -815,7 +707,7 @@ Task SetScaleAsync(float scale)
 
 ### ShadowStrengthUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L115" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L96" />
 
 ```csharp
 void ShadowStrengthUpdated()
@@ -823,7 +715,7 @@ void ShadowStrengthUpdated()
 
 ### ViewOffsetUpdated()
 
-<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L123" />
+<ViewSource href="https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseModelEntity.cs#L98" />
 
 ```csharp
 void ViewOffsetUpdated()
